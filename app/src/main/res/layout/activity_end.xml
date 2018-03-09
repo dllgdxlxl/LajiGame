@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:largeHeap="true"
+    android:background="@drawable/background4"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<TextView
+    android:id="@+id/score"
+    android:layout_marginTop="150dp"
+    android:text="21"
+    android:textColor="@color/white"
+    android:textSize="150sp"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" />
+    <ImageView
+        android:id="@+id/end_start_game"
+        android:layout_margin="10dp"
+        android:src="@drawable/again"
+        android:layout_width="match_parent"
+        android:layout_height="55dp" />
+    <LinearLayout
+        android:layout_marginTop="150dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+        <ImageView
+            android:id="@+id/end_share"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:src="@drawable/share"
+            android:layout_gravity="center"
+            android:layout_height="match_parent" />
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:id="@+id/end_home"
+            android:src="@drawable/home"
+            android:layout_gravity="center"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+</LinearLayout>
